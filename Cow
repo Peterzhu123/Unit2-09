@@ -1,0 +1,18 @@
+// Create by : Peter zhu
+// Create on : May 16th
+// This is a program about Cow
+
+public class Cow extends Animal {
+	
+	public Cow(int numberOfhorns, String color) {
+		super(2,"White");
+		System.out.println("Cow has " + numberOfhorns +" horns");
+		System.out.println("The color of Cow is " + color);
+	}
+
+	public void playSound () {
+		// Cow making sound
+		System.out.println("Mow");
+	}
+
+}
