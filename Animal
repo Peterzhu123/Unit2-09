@@ -1,0 +1,18 @@
+// Create by : Peter zhu
+// Create on : May 16th 2018
+// This is a program about Animal
+
+public class Animal {
+	private int _numberOfLegs;
+	private String _color;
+
+	public void playSound() {
+		System.out.println("animal is making sound");
+	}
+	
+	public Animal(int numberOfLegs, String color) {
+		 _numberOfLegs = numberOfLegs;
+		 _color = color;
+	}
+
+}
