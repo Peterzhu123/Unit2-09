@@ -1,0 +1,27 @@
+// Create by : Peter zhu
+// Create on : May 16th
+// This is a program about Polymorphism
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		
+		// The parent class
+		Animal animal = new Animal(0, null);
+		animal.playSound();
+		System.out.println();
+		
+		// The first child class
+		Cat cat = new Cat(4,"Yellow");
+		cat.playSound();
+		System.out.println();
+		
+		// The second child class
+		Cow cow = new Cow(2, "White");
+		cow.playSound();
+		System.out.println();
+
+	}
+
+}
+
