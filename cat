@@ -1,0 +1,19 @@
+// Create by : Peter zhu
+// Create on : May 16th
+// This is a program about Cat
+
+public class Cat extends Animal {
+	
+	public Cat(int numberOfLegs, String color) {
+		super(4,"Yellow");
+		System.out.println("Cat has " + numberOfLegs +" Legs");
+		System.out.println("The color of cat is " + color);
+	}
+
+	public void playSound() {
+		// Cat making sound
+		System.out.println("Meow");
+		
+	}
+
+}
